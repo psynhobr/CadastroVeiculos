@@ -1,0 +1,49 @@
+﻿@model IEnumerable<CadastroVeiculos.Models.TBLimagem>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 style="display: inline-block">Lista de Veículos</h2>
+<h4 style="display: inline-block">cadastrados no sistema</h4>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Placa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Renavan)
+        </th>
+        <th>Ações</th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Placa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Renavan)
+            </td>
+            <td>
+                <a href="@Url.Action("Edit", new { id = item.Id }) " class="btn btn-warning">
+                    Editar
+                </a>
+                <a href="@Url.Action("Details", new { id = item.Id }) " class="btn btn-info">
+                    Visualizar
+                </a>
+            </td>
+        </tr>
+    }
+
+
+</table>
+<p>
+    <a href="@Url.Action("Create") " class="btn btn-success">
+        Cadastrar Veiculos
+    </a>
+</p>
