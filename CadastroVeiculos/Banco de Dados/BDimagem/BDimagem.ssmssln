@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "BDimagem", "BDimagem\BDimagem.ssmssqlproj", "{E85EE8E6-06C0-42F0-BE4E-1CA50346BFD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E85EE8E6-06C0-42F0-BE4E-1CA50346BFD7}.Default|Default.ActiveCfg = Default
+		{8B23D2FE-DD31-4590-86BE-010056A76937}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6EC1318-A5D3-457F-891D-6FCC03E010CC}
+	EndGlobalSection
+EndGlobal
