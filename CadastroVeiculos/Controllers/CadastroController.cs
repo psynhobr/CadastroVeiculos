@@ -15,7 +15,7 @@ namespace CadastroVeiculos.Controllers
 {
     public class CadastroController : Controller
     {
-        private modeloBD db = new modeloBD();
+        private modeloBD db = new modeloBD();/*;*/
         public object GetExtension { get; private set; }
         public IEnumerable<object> ImagemFile { get; private set; }
 
